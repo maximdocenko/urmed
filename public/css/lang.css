@@ -1,0 +1,29 @@
+.lang {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.lang ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.lang ul li.active {
+    display: none;
+}
+
+.lang ul li img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.lang ul li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #272A36;
+
+}

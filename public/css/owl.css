@@ -1,0 +1,18 @@
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 50%;
+    margin-top: -13.5px;
+}
+
+.owl-prev {
+    left: -35px;
+}
+
+.owl-next {
+    right: -35px;
+}
+
+.owl-prev img, .owl-next img {
+    width: 15px;
+    height: 27px;
+}

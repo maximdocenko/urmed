@@ -1,0 +1,56 @@
+body {
+    /*background: url('../images/chat-bg.png');*/
+    background-size: 100px auto;
+    background: linear-gradient(180deg, #4160CC 0%, #0E1A45 100%);
+}
+
+h1.title.color-white {
+    color: #fff;
+}
+
+.chat-form {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.message {
+    padding: 10px;
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.message.current {
+
+}
+
+.message > div {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.message > div > span {
+    font-size: 15px;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.message.current > div {
+    color: #fff;
+}
+
+.contact-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px #333;
+}
+
+#remote-playerlist {
+    justify-content: center;
+}

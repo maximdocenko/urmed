@@ -1,0 +1,57 @@
+#join-form {
+  margin-top: 10px;
+}
+
+.tips {
+  font-size: 12px;
+  margin-bottom: 2px;
+  color: gray;
+}
+
+.join-info-text {
+  margin-bottom: 2px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.player {
+  width: 100%;
+  height: 500px;
+}
+
+.player2 {
+  width: 100%;
+  height: 300px;
+}
+
+.player, .player2 {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 4px #333;
+}
+
+.player-name {
+  margin: 8px 0;
+    color: #fff;
+}
+
+.counter {
+    color: #fff;
+    text-align: center;
+}
+
+#success-alert, #success-alert-with-token {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .player {
+    width: 320px;
+    height: 240px;
+  }
+}

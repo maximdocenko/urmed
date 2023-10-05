@@ -1,0 +1,21 @@
+.alert {
+    padding: 10px 12px;
+    color: #fff;
+}
+
+.alert button {
+    background: #fff;
+    border: 0;
+    outline: none;
+    padding: 0px 5px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.alert.alert-success {
+    background: #2F80ED;
+    width: 800px;
+    max-width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}

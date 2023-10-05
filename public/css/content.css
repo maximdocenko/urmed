@@ -1,0 +1,20 @@
+body a.link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #557BFF;
+}
+
+body a.profile-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+}
+
+span.dot:first-child {
+    display: none;
+}

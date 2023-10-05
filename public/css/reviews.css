@@ -1,0 +1,48 @@
+.reviews {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.review {
+    background: #F2F4FA;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.review .rate {
+    margin-bottom: 0;
+    margin-bottom: 0;
+}
+
+.review-rating {
+    margin-bottom: 17px;
+}
+
+.review-date {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #626473;
+    margin-bottom: 4px;
+}
+
+.review-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #626473;
+    margin-bottom: 14px;
+}
+
+.reviews div.review-ava img {
+    border-radius: 100%;
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}

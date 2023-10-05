@@ -1,0 +1,97 @@
+.form-control {
+    font-family: 'Roboto';
+    width: 100%;
+    height: 56px;
+    border-radius: 4px;
+    border: solid 1px #aeafb8;
+    padding: 16px;
+}
+
+textarea.form-control {
+    height: 104px;
+}
+
+.form-group {
+    position: relative;
+    margin: 24px 0;
+}
+
+.form-group label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #626473;
+    background: #fff;
+    padding: 0 4px;
+    position: absolute;
+    top: -8px;
+    left: 16px;
+    z-index: 2;
+}
+
+.form-group-additional {
+    display: none;
+}
+
+.form-group label.label-relative {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+    padding: 5px 0;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.label-image {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.form-group label.label-relative.active {
+    display: block;
+}
+
+.form-control-border {
+    width: 100%;
+    border-radius: 4px;
+    border: solid 1px #aeafb8;
+    padding: 16px;
+    height: 350px;
+    overflow-x: scroll;
+    position: relative;
+    z-index: 1;
+}
+
+.back-arrow {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+input[name='payment-method'] {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    display: none;
+}
+
+input[name='payment-method'] + label {
+    border: solid 2px #fff;
+    padding-right: 20px;
+    display: block;
+}
+
+input[name='payment-method']:checked + label {
+    border: solid 2px #557bff;
+}
